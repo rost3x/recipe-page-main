@@ -12,6 +12,7 @@
 * {
     margin: 0;
     font-size: 16px;
+    line-height: 2rem;
 }
 
 html {
@@ -53,9 +54,20 @@ h3 {
     font-size: 20px;
 }
 
+li::marker {
+    color: var(--dark-raspberry);
+    font-weight: 600;
+}
+
 .preparation {
     background-color: var(--rose-white);
     border-radius: 15px;
+    padding: 16px;
+}
+
+.preparation h3 {
+    font-family: 'Outfit', sans-serif;
+    color: var(--dark-raspberry);
 }
 
 /* Footer */
